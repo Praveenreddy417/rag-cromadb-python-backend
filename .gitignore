@@ -1,4 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
 .venv/
-.venv/
+env/
+
+# Environment variables
 .env
-.vercel
+.env.*
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Vercel
+.vercel/
+
+# Chroma DB local storage
+chroma_db/
+
+# UV lock
+uv.lock
